@@ -1,4 +1,4 @@
-# Network Package
+# Network Kit
 
 A robust, singleton-based network client for Flutter applications, built on top of [Dio](https://pub.dev/packages/dio). This package simplifies API interactions by providing a centralized configuration, standardized response handling, and powerful interceptor support.
 
@@ -48,10 +48,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  network:
-    # If local
-    path: packages/network
-    # or git/hosted version
+  network_kit: ^0.0.1
 ```
 
 ## Usage
